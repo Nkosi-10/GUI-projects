@@ -6,8 +6,10 @@ root.config(bg="#F0F8FF")
 Enter = Entry(root, width=35, font=("Arial", 10))
 Enter.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
 
-root.iconbitmap('C:\\Users\\KHUMALO\\Desktop\\GUI\\GUI\\calc.ico')
-# root.iconphoto(FALSE, PhotoImage(file='C:\\Users\\KHUMALO\\Desktop\\GUI\\GUI\\calc.png'))
+# root.iconbitmap('C:\\Users\\KHUMALO\\Desktop\\GUI\\GUI\\calc.ico')
+root.iconbitmap("C:\\Users\\KHUMALO\\Desktop\\GUI-projects\\GUI\\calc.ico")
+
+# root.iconphoto(TRUE, PhotoImage(file='C:\\Users\\KHUMALO\\Desktop\\GUI\\GUI\\calc.png'))
 
 
 
